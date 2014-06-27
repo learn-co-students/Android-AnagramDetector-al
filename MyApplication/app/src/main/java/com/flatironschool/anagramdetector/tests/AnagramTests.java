@@ -40,7 +40,13 @@ public class AnagramTests extends InstrumentationTestCase {
         assertTrue(Arrays.deepEquals(anagrams, new String[]{"inlets"}));
     }
 
+    public void testMatchMethodDetectsMultipleAnagrams() throws Exception{
+        String[] candidates = new String[]{"gallery", "ballerina", "regally", "clergy", "largely", "leading"};
+        Anagram detector = new Anagram("allergy", candidates);
+        String[] anagrams = detector.match();
 
+        assertTrue(Arrays.deepEquals(anagrams, new String[]{"gallery", "regally", "largely"}));
+    }
     @Override
     protected void tearDown() {
 
