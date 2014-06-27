@@ -12,6 +12,15 @@ public class AnagramActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_anagram);
+
+        String[] iceman = new String[3];
+        iceman[0] = "iceman";
+        iceman[1] = "manice";
+        iceman[2] = "sdoflk";
+
+        Anagram anagram = new Anagram("cinema", iceman);
+
+        String[] matches = anagram.match();
     }
 
 
