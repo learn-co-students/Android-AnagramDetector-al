@@ -14,7 +14,7 @@ Your class, `Anagram` should take a word, and a String Array on initialization, 
 respond to a `match` method. It should return
 all matches in an array. If no matches exist, it should return an empty array.
 
-In other words, given: `"listen"` and `{"enlists", "google", "inlets", "banana")}`
+In other words, given: `"listen"` and `{"enlists", "google", "inlets", "banana"}`
 the program should return `{"inlets"}`.
 
 
