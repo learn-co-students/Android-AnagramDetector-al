@@ -39,11 +39,7 @@ public class Anagram {
         Arrays.sort(word1);
         Arrays.sort(word2);
 
-        for (int x =0; x < word1.length; x++){
-            if (word1[x] != word2[x]){
-                return false;
-            }
-        }
+        if (!Arrays.equals(word1, word2)){return false;}
 
         return true;
     }
