@@ -40,6 +40,7 @@ public class Anagram {
         Arrays.sort(word2);
 
         if (!Arrays.equals(word1, word2)){return false;}
+        //Note you cannot do word1 != word2 here. Do you know the difference? 
 
         return true;
     }
