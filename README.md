@@ -1,7 +1,4 @@
----
-  tags: tdd, todo, oop, arrays, match
-  languages: java
----
+
 
 # Anagram Detector
 
