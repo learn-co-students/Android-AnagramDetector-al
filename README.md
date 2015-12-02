@@ -17,3 +17,5 @@ the program should return `{"inlets"}`.
 
 Write your solution in Anagram.java. Run the tests with `AnagramTests`.
 
+
+<a href='https://learn.co/lessons/Android-AnagramDetector' data-visibility='hidden'>View this lesson on Learn.co</a>
